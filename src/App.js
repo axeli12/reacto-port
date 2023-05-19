@@ -1,21 +1,14 @@
-import './App.css';
+import React from "react";
+import header from './componets/header'
+import footer from './componets/footer'
+import project from './componets/projects'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <header />
+      <project />
+      <footer />
     </div>
   );
 }
