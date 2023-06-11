@@ -21,13 +21,13 @@ function Navigation({ currentPage, handlePageChange }) {
           </li>
           <li className="nav-item">
             <a
-              href="#portfolio"
-              onClick={() => handlePageChange("Portfolio")}
+              href="#projects"
+              onClick={() => handlePageChange("Projects")}
               className={
-                currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+                currentPage === "Projects" ? "nav-link active" : "nav-link"
               }
             >
-              Portfolio
+              Projects
             </a>
           </li>
 

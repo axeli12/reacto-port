@@ -10,14 +10,14 @@ function App() {
     const [currentPage, setCurrentPage] = useState('About');
 
     const renderPage = () => {
-        if (currentPage === 'Resume') {
-            return <Resume />
+        if (currentPage === 'Projects') {
+            return <Projects />
         }
         if (currentPage === 'About') {
             return <About />
         }
-        if (currentPage === 'Projects') {
-            return <Projects />
+        if (currentPage === 'Resume') {
+            return <Resume />
         }
         return <Contact />
     }

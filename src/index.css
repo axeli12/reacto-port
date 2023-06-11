@@ -1,0 +1,103 @@
+:root {
+    --text: #723d46;
+    --orange: #e26d5c;
+    --blue: #669bbc;
+    --cream: #fdf0d5;
+    --darkblue: #003049;
+  }
+  
+  .header {
+    background-color: var(--blue);
+    color: var(--cream);
+  }
+  
+  .nav-link {
+    color: var(--text);
+  }
+  
+  body {
+    background-size: cover;
+    color: var(--text);
+    font-family: "Josefin Sans", sans-serif;
+    font-family: "Rajdhani", sans-serif;
+  }
+  
+  main {
+    padding: 100px;
+  }
+  
+  .img-fluid {
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    border: 5px solid var(--orange);
+    border-style: inset;
+    border-radius: 5%;
+  }
+  
+  .text-overlay {
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    margin-top: 0;
+    font-size: 30px;
+    color: var(--blue);
+    text-decoration: none;
+  }
+  
+  .image:hover .text-overlay {
+    opacity: 1;
+  }
+  
+  .tinyLogo {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+  }
+  
+  #aboutme.row {
+    padding-top: 50px;
+  }
+  
+  .contactme {
+    display: flex;
+    justify-content: center;
+  }
+  
+  label {
+    padding-top: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  .resume{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  }
+  
+  .resume a{
+    text-decoration: none;
+    color: var(--orange);
+  }
+  
+  .skillset{
+  text-decoration: underline;
+  }
+  
+  .skillList{
+    border-right: 5px solid var(--orange);
+  }
+  
+  .footer {
+    padding: 20px 0;
+  }
+  
+  .footer img {
+    width: 75px;
+    height: 75px;
+    margin: 0 10px;
+  }

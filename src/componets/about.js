@@ -9,7 +9,7 @@ export default function About() {
                     <div className="" style={{fontSize:40}}> About Me
 
                     </div>
-                    <p className="" style={{fontSize: 50}}>
+                    <p className="" style={{fontSize: 20}}>
                     Hi my name is Axel Irias I am a software deveoper located in Denver Colorado.
                     I am currently working in construction and I have always have had a passion for bulding things and making them work.
                     Reason for the switch is because coding seems to be more engaging than anything that I have done.
