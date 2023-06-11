@@ -10,13 +10,13 @@ export default function Resume () {
           className="col-6 d-flex justify-content-center skillset"
           style={{ fontSize: 40, fontStyle: "italic" }}
         >
-          Front-end Proficiencies
+          Front-end Skils
         </div>
         <div
           className="col-6 d-flex justify-content-center skillset"
           style={{ fontSize: 40, fontStyle: "italic" }}
         >
-          Back-end Proficiencies
+          Back-end Skils
         </div>
           <div className="col-6 skillList"   style={{ fontSize: 30 }}>
             <ul>HTML</ul>

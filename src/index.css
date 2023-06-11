@@ -1,23 +1,23 @@
 :root {
-    --text: #723d46;
-    --orange: #e26d5c;
-    --blue: #669bbc;
+    --text: #686868;
+    --red: #FF0000;
     --cream: #fdf0d5;
     --darkblue: #003049;
+    --grey: #686868
   }
   
   .header {
-    background-color: var(--blue);
-    color: var(--cream);
+    background-image: var(--grey);
+    color: var(--grey);
   }
   
   .nav-link {
-    color: var(--text);
+    color: var(--grey);
   }
   
   body {
-    background-size: cover;
-    color: var(--text);
+    background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));;
+    color: var(--grey);
     font-family: "Josefin Sans", sans-serif;
     font-family: "Rajdhani", sans-serif;
   }
@@ -30,7 +30,7 @@
     height: 400px;
     width: 400px;
     padding: 20px;
-    border: 5px solid var(--orange);
+    border: 5px solid var(--red);
     border-style: inset;
     border-radius: 5%;
   }
@@ -51,8 +51,8 @@
   }
   
   .tinyLogo {
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     margin: 0 10px;
   }
   
@@ -81,7 +81,8 @@
   
   .resume a{
     text-decoration: none;
-    color: var(--orange);
+    color: var(--grey);
+    text-decoration: underline;
   }
   
   .skillset{
@@ -89,7 +90,7 @@
   }
   
   .skillList{
-    border-right: 5px solid var(--orange);
+    border-right: 5px solid var(--red);
   }
   
   .footer {

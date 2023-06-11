@@ -9,7 +9,7 @@ function Header(props) {
             currentPage={currentPage}
             handlePageChange={handlePageChange}
             />
-            <div className="row justify-content-center" style={{fontSize:80}}>
+            <div className="row justify-content-center" style={{fontSize:50}}>
                 Axel Irias
             </div>
         </header>
