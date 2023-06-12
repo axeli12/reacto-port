@@ -6,6 +6,7 @@ import movie from '../images/movie.png';
 import quiz from '../images/quiz.png';
 import weather from '../images/weather.png';
 import ghub from '../images/github-mark.png';
+import think from '../images/thinker.png';
 
 export default function Projects() {
     return (
@@ -97,6 +98,25 @@ export default function Projects() {
               </a>
               <a href="https://github.com/axeli12/week4-quiz">
                 <img src={ghub} alt="github" className="tinyLogo" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="col-6 d-flex justify-content-center">
+          <div className="image">
+            <img 
+            src={think}
+            alt="thinker"
+            className="img-fluid"
+            />
+            <div className="text-overlay">
+              <a href="https://salty-eyrie-98942.herokuapp.com/">
+                Thinker
+
+              </a>
+              <a href="https://github.com/IaroslavLasiichuk/porfolio-i-las-mern">
+
+              <img src={ghub} alt="github" className="tinyLogo" />
               </a>
             </div>
           </div>
