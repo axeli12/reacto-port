@@ -5,7 +5,7 @@ function Navigation({ currentPage, handlePageChange }) {
     <>
       <nav>
         <ul
-          className="nav  justify-content-center p-4"
+          className="nav  justify-content-left p-4"
           style={{ fontSize: 30 }}
         >
           <li className="nav-item">
